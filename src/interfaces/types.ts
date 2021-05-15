@@ -4,3 +4,6 @@ export interface CliOptions {
   templatePath: string;
   targetPath: string;
 }
+export interface TemplateData {
+  projectName: string;
+}
